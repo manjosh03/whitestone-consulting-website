@@ -224,6 +224,14 @@ span {
   
 
 
+.phone-contact i {
+  font-size: 150%;
+  margin-right: 10px;
+  color: #ffffff; /* make icon a soft blue */
+}
+
+
+
 .footer {
     display: flex;
     justify-content: space-between;
