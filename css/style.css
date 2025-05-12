@@ -136,7 +136,21 @@ span {
     font-size: 1.6rem;   
 }
 
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+}
 
+.btn:hover {
+    box-shadow: none;
+}
 .about {
     display: flex;
     justify-content: center;
@@ -241,7 +255,7 @@ span {
 
 
 .phone-contact i {
-  font-size: 150%;
+  font-size: 120%;
   margin-right: 10px;
   color: #ffffff; /* make icon a soft blue */
 }
